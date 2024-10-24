@@ -1,0 +1,23 @@
+body {
+  background-color: #efefef;
+}
+
+#juego .card {
+  min-width: 200px;
+}
+
+#tablero {
+  max-width: 320px;
+}
+
+#tablero .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.notificado-icono {
+  border: none;
+  color: var(--bs-secondary) !important;
+}
